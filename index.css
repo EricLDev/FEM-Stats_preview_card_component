@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    background-color: hsl(233, 47%, 7%);
+}
+
+.container {
+    background-color: hsl(244, 38%, 16%);
+    border-radius: .5rem;
+}
+
+.thumbnail {
+    background-color: hsl(277, 64%, 61%);
+    border-radius: .5rem .5rem 0 0;
+    padding: 0;
+}
+
+.thumbnail img {
+    border-radius: .5rem .5rem 0 0;
+    mix-blend-mode: multiply;
+    filter: opacity(75%);
+}
+
+.card-text {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.heading {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.heading span {
+    color: hsl(277, 64%, 61%);
+
+}
+
+.paragraph {
+    color: hsla(0, 0%, 100%, 0.6);
+    text-align: center;
+}
+
+.stats {
+    text-align: center;
+}
+
+.stats div p:nth-child(1) {
+    font-size: 1.35rem;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+.stats div p:nth-child(2) {
+    text-transform: uppercase;
+    font-size: .75rem;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: hsla(0, 0%, 100%, 0.75)
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        width: 80%;
+
+    }
+
+    .thumbnail img {
+        content: url(./images/image-header-desktop.jpg);
+        border-radius: 0 .5rem .5rem 0;
+        width: 100%;
+    }
+
+    .thumbnail {
+        background-color: hsl(277, 64%, 61%);
+        border-radius: 0 .5rem .5rem 0;
+        padding: 0;
+    }
+
+    .card-text {
+        padding: 4rem 8rem 4rem 4rem;
+    }
+
+    .heading, .paragraph, .stats {
+        text-align: left;
+    }
+
+    .heading {
+        font-size: 2.25rem;
+        line-height: 3rem;
+    }
+
+    .paragraph {
+        margin-top: 2.5rem;
+        line-height: 1.75rem;
+    }
+
+    .stats {
+        justify-content: space-between;
+    }
+
+    .stats div p:nth-child(1) {
+        font-size: 1.5rem;
+    }
+
+    .stats div p:nth-child(2) {
+        font-size: .75rem;
+    }
+
+}
