@@ -1,7 +1,7 @@
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/desktop-mobile-layout-using-bootstrap-flexbox-oIYJm5hoT]
-- Live Site URL: [https://ericl81.github.io/FEM-Stats_preview_card_component/]
+- Live Site URL: [https://ericldev.github.io/FEM-Stats_preview_card_component/]
 
 # Frontend Mentor - Stats preview card component
 
